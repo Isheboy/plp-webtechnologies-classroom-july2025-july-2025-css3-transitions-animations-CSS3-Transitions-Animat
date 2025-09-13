@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3 Transitions & Animations + JavaScript</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>CSS3 Transitions & Animations + JavaScript</h1>
+    <section id="part1">
+      <h2>Part 1: CSS3 Transitions and Animations</h2>
+      <button class="fancy-btn">Hover Me!</button>
+      <div class="animated-box">I animate on load</div>
+    </section>
+    <section id="part2">
+      <h2>Part 2: JavaScript Functions</h2>
+      <button onclick="showScopeDemo()">Show Scope Demo</button>
+      <div id="scope-demo-result"></div>
+      <button onclick="showSumResult()">Sum 5 + 7</button>
+      <div id="sum-result"></div>
+    </section>
+    <section id="part3">
+      <h2>Part 3: Combining CSS & JS</h2>
+      <button id="animate-trigger">Animate the Box!</button>
+      <div id="js-animated-box" class="js-box">Click the button above</div>
+      <button id="show-modal">Show Modal</button>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span id="close-modal" class="close">&times;</span>
+          <p>This is a modal with animation!</p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
